@@ -1,7 +1,7 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
 var prefix = "*"
-var adminprefix = '3'
+var adminprefix = '$'
 
 
 //bc
@@ -82,7 +82,7 @@ m.sendMessage(args)
 
        *bc  |  لأرسال برود كاست للأونلاين
 
-       $adminbc | برودكاست عادي
+       *adminbc | برودكاست عادي
 
        ** `)
    message.author.sendEmbed(embed)
